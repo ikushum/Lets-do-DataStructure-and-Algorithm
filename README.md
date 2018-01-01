@@ -2,17 +2,19 @@
 
 > Yay! Its the first day of 2018.
 
-I have compiled together a comprehensive list of standard Algorithm and Data Structures below. As a new year resolution, my goal will be to implement all of these using python. Furthermore, as I go deeper down the list, I will be adding links to article and video resources, that I used to understand the concepts. 
+I have compiled together a comprehensive list of standard Algorithm and Data Structures below. As a new year resolution, my goal will be to implement all of these using python. Furthermore, as I go deeper down the list, I will be adding links to article and video resources, that I used to understand these concepts. 
 
 ### Algorithmic complexity / Big-O / Asymptotic analysis
-Before even getting started implementing these algorithms, its important to  understand these concepts.  
+Before even getting started implementing these algorithms, its important to know about these topics :  
 - [HackerRank - Big O (video)](https://www.youtube.com/watch?v=v4cd1O4zkGw&t=3s)  
 - [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 
 ### Data Structures (basic)
 
-- Stacks
-- Queues
+- Stacks and Queues
+  - [HackerRank - Stacks and Queues (video)](https://www.youtube.com/watch?v=wjI1WNcIntg)
+  - [Array Implementation of Queue (video)](https://www.youtube.com/watch?v=okr-XE8yTO8&t=389s)
+  - [Queue implementation (code)](Data_Structures_(basic)/queue.py)
 - Linked Lists
 - Binary Search Tree
 - Heap / Priority Queue / Binary Heap
