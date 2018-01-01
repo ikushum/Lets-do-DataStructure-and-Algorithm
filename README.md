@@ -6,9 +6,8 @@ I have compiled together a comprehensive list of standard Algorithm and Data Str
 
 ### Algorithmic complexity / Big-O / Asymptotic analysis
 Before even getting started implementing these algorithms, its important to  understand these concepts.  
-[HackerRank - Big O (video)](https://www.youtube.com/watch?v=v4cd1O4zkGw&t=3s)  
-[Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
-
+- [HackerRank - Big O (video)](https://www.youtube.com/watch?v=v4cd1O4zkGw&t=3s)  
+- [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 
 ### Data Structures (basic)
 
