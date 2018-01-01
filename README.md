@@ -4,6 +4,12 @@
 
 I have compiled together a comprehensive list of standard Algorithm and Data Structures below. As a new year resolution, my goal will be to implement all of these using python. Furthermore, as I go deeper down the list, I will be adding links to article and video resources, that I used to understand the concepts. 
 
+### Algorithmic complexity / Big-O / Asymptotic analysis
+Before even getting started implementing these algorithms, its important to  understand these concepts.  
+[HackerRank - Big O (video)](https://www.youtube.com/watch?v=v4cd1O4zkGw&t=3s)  
+[Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+
+
 ### Data Structures (basic)
 
 - Stacks
