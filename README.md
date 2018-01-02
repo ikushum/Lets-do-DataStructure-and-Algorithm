@@ -15,6 +15,7 @@ Before even getting started implementing these algorithms, its important to know
   - [HackerRank - Stacks and Queues (video)](https://www.youtube.com/watch?v=wjI1WNcIntg)
   - [Array Implementation of Queue (video)](https://www.youtube.com/watch?v=okr-XE8yTO8&t=389s)
   - [Queue implementation (code)](Data_Structures_(basic)/queue.py)
+  - [Circular Queue implementation (code)](Data_Structures_(basic)/circular_queue.py)
 - Linked Lists
 - Binary Search Tree
 - Heap / Priority Queue / Binary Heap
