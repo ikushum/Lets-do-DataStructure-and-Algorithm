@@ -1,22 +1,29 @@
 # In this sort of normal Queue, we can insert elements until queue becomes full. But once queue becomes full, we can not insert the next element even if there is a space in front of queue. 
 
 class Queue:
-	max = 5
-	head = -1
-	tail = -1
-	array = [None] * max
+	def __init__(self,size):
+		#max = 5
+		self.size = size
+		self.head = -1
+		self.tail = -1
+		self.array = [None] * size
 
 	def isEmpty(self):
 		if (self.head == -1 & self.tail == -1):
-			print(True)
+			return True
 		else:
-			print(False)
+			return False
 
 	def peek(self):
-		print('First data in queue is : ' + str(self.array[self.head]))
+		if self.head >= 0:
+			print('First data in queue is : ' + str(self.array[self.head]))
+			return self.array[self.head]
+		else:
+			print("no element in queue")
+			return None
 
 	def add(self, data):
-		if (self.tail == 4):
+		if not (self.tail < self.size-1):
 			print('Queue is full')
 			return
 		if (self.head == -1 & self.tail == -1):
@@ -28,12 +35,14 @@ class Queue:
 	def remove(self):
 		if (self.head == -1 & self.tail == -1):
 			print('Queue is empty')
-		elif (self.head == self.tail ):
-			self.head=self.tail= -1	
+			
 		else:
 			print(str(self.array[self.head]) + ' was deleted')
 			self.array[self.head] = None	
 			self.head+=1			
+			if (self.head == self.tail ):
+				self.head=self.tail= -1
+			
 
 	def display(self):
 		if (self.head == -1 & self.tail == -1):
