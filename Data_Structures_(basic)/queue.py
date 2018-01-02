@@ -29,9 +29,9 @@ class Queue:
 		elif (self.head == self.tail ):
 			self.head=self.tail= -1	
 		else:
-			print(str(self.array[self.tail]) + ' was deleted')
-			self.array[self.tail] = None	
-			self.tail-=1				
+			print(str(self.array[self.head]) + ' was deleted')
+			self.array[self.head] = None	
+			self.head+=1			
 
 	def display(self):
 		if (self.head == -1 & self.tail == -1):
