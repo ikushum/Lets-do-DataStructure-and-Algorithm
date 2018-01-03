@@ -14,12 +14,13 @@ Before even getting started implementing these algorithms, its important to know
 - Stacks
   - [Tutorials Point - Stack](https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm)
   - [HackerRank - Stacks and Queues introduction (video)](https://www.youtube.com/watch?v=wjI1WNcIntg)
-  - [Array Implementation of Stack (video) ](https://www.youtube.com/watch?v=F1F2imiOJfk)
+  - [Harvard CS50 - Implementation of Stack (video)](https://www.youtube.com/watch?v=hVsNqhEthOk)
+  - [My Code School - Array Implementation of Stack (video) ](https://www.youtube.com/watch?v=F1F2imiOJfk)
   - [Array Implementation of Stack (code)](Data_Structures_(basic)/stack.py)
 - Queues
   - [Tutorials Point - Queue](https://www.tutorialspoint.com/data_structures_algorithms/dsa_queue.htm)
   - [Programiz - Circular Queue](https://www.programiz.com/dsa/circular-queue)
-  - [Array Implementation of Circular/Normal Queue (video)](https://www.youtube.com/watch?v=okr-XE8yTO8&t=389s)
+  - [My Code School - Array Implementation of Circular/Normal Queue (video)](https://www.youtube.com/watch?v=okr-XE8yTO8&t=389s)
   - [Array Implementation of Queue (code)](Data_Structures_(basic)/queue.py)
   - [Array Implementation of Circular Queue (code)](Data_Structures_(basic)/circular_queue.py)
 - Linked Lists
