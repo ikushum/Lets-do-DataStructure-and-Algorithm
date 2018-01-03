@@ -1,11 +1,11 @@
 class Node:
-	def __init__(self, data=None):
+	def __init__(self, data):
 		self.data = data
 		self.next=None
 
-class SingleLinkedList:
+class SinglyLinkedList:
 	def __init__(self):
-		self.head = Node()
+		self.head = Node(None)
 
 	def append(self, data):
 		newNode = Node(data)
@@ -62,4 +62,4 @@ class SingleLinkedList:
 			while not(currentNode.next == None):
 				currentNode = currentNode.next
 				elements.append(currentNode.data)
-			print(elements)			
+			print(elements)	

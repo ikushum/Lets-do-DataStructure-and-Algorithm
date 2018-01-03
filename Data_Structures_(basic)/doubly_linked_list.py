@@ -1,12 +1,12 @@
 class Node:
-	def __init__(self, data=None):
+	def __init__(self, data):
 		self.data = data
 		self.next=None
 		self.prev=None
 
-class DoubleLinkedList:
+class DoublyLinkedList:
 	def __init__(self):
-		self.head = Node()
+		self.head = Node(None)
 
 	def append(self, data):
 		newNode = Node(data)
@@ -87,6 +87,12 @@ class DoubleLinkedList:
 			print('The list is : ')
 			print(elements)		
 
-
-
-
+l = DoublyLinkedList()
+l.append(1)
+l.append(2)
+l.append(3)
+l.append(4)
+l.display()
+l.prepend(0)
+l.display()
+l.reverseDisplay()
