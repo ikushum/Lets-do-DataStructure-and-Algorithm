@@ -2,7 +2,6 @@
 
 class Queue:
 	def __init__(self,size):
-		#max = 5
 		self.size = size
 		self.head = -1
 		self.tail = -1
