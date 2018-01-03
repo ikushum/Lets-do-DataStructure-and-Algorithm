@@ -23,10 +23,14 @@ Before even getting started implementing these algorithms, its important to know
   - [Array Implementation of Queue (code)](Data_Structures_(basic)/queue.py)
   - [Array Implementation of Circular Queue (code)](Data_Structures_(basic)/circular_queue.py)
 - Linked Lists
-  - [Tutorials Point - Single Linked List](https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm)
-  - [HackerRank - Single Linked List (video)](https://www.youtube.com/watch?v=njTh_OwMljA&t=307s)
-  - [Derek Banas - Single Linked List (video)](https://www.youtube.com/watch?v=195KUinjBpU)
-  - [Single Linked List (code)](Data_Structures_(basic)/single_linked_list.py)
+  - [Tutorials Point - Singly Linked List](https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm)
+  - [Tutorials Point - Doubly Linked List](https://www.tutorialspoint.com/data_structures_algorithms/doubly_linked_list_algorithm.htm) 
+  - [HackerRank - Singly Linked List (video)](https://www.youtube.com/watch?v=njTh_OwMljA&t=307s)
+  - [Derek Banas - Singly Linked List (video)](https://www.youtube.com/watch?v=195KUinjBpU)
+  - [My Code School - Doubly Linked List introduction (video)](https://www.youtube.com/watch?v=JdQeNxWCguQ)
+  - [Harvard CS50 - Doubly Linked List (video)](https://www.youtube.com/watch?v=FHMPswJDCvU&t=463s)
+  - [Singly Linked List (code)](Data_Structures_(basic)/singly_linked_list.py)
+  - [Doubly Linked List (code)](Data_Structures_(basic)/doubly_linked_list.py)
 - Binary Search Tree
 - Heap / Priority Queue / Binary Heap
 
