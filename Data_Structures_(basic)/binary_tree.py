@@ -30,8 +30,31 @@ class Node:
 			self.right_child.find(data) if self.right_child else print(str(data) + ' not found')
 		return False
 
-	def delete():
-		return
+	def delete(self, data, parent=None):
+		if(data == self.data):
+			nodeToDelete = self
+			if(nodeToDelete.left_child == nodeToDelete.right_child == None):
+				nodeToDelete = None
+			elif(nodeToDelete.left_child == None):
+				nodeToDelete = nodeToDelete.right_child
+			elif(nodeToDelete.right_child == None):
+				nodeToDelete = nodeToDelete.left_child
+			else:
+				min_node = nodeToDelete.findMinNode()
+				nodeToDelete.data = min_node.data
+				self = nodeToDelete.right_child
+				self.delete(min_node.data, parent=nodeToDelete)
+			return data
+		elif(data < self.data):
+			self.left_child.delete(data,parent=self) if self.left_child else print(str(data) + ' not found')
+		elif(data > self.data) :
+			self.right_child.delete(data,parent=self) if self.right_child else print(str(data) + ' not found')
+
+	def findMinNode(self):
+		min_node = self.right_child
+		while(min_node.left_child != None):
+			min_node = min_node.left_child
+		return min_node
 
 class Tree:
 	def __init__(self):
@@ -55,8 +78,12 @@ class Tree:
 			print(str(data) + ' not found') 
 			return False
 
-	def delete():
-		return 
+	def delete(self,data):
+		if(self.parent):
+			deleted_element = self.parent.delete(data,parent=self.parent)
+			print(str(deleted_element) + ' was deleted')	
+		else:
+			print('Tree is empty')
 
 bst = Tree()
 choice = 0
@@ -70,4 +97,5 @@ while(choice != 4):
 		data = input("\nEnter number to find: ")
 		bst.find(data)
 	elif(choice==3):
-		choice = 3
+		data = input("\nEnter number to delete: ")
+		bst.delete(data)
