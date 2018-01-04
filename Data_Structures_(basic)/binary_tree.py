@@ -46,9 +46,10 @@ class Tree:
 
 	def find(self, data):
 		if(self.parent):
-			if(self.parent.find(data)==True):
-				return True 
-			elif(self.parent.find(data)==False):
+			search_result = self.parent.find(data)
+			if search_result==True:
+				return True
+			else:
 				return False
 		else:
 			print(str(data) + ' not found') 
@@ -67,6 +68,6 @@ while(choice != 4):
 		bst.insert(data)
 	elif(choice==2):
 		data = input("\nEnter number to find: ")
-		print(bst.find(data))
+		bst.find(data)
 	elif(choice==3):
 		choice = 3
