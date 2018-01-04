@@ -33,6 +33,11 @@ Before even getting started implementing these algorithms, its important to know
   - [Singly Linked List (code)](Data_Structures_(basic)/singly_linked_list.py)
   - [Doubly Linked List (code)](Data_Structures_(basic)/doubly_linked_list.py)
 - Binary Search Tree
+  - [GeeksforGeeks - BST Insertion and Search](https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/)
+  - [GeeksforGeeks - BST Deletion](https://www.geeksforgeeks.org/binary-search-tree-set-2-delete/) 
+  - [Joe James - BST Insertion, Search and Traversal (video)](https://www.youtube.com/watch?v=YlgPi75hIBc&t=358s)
+  - [MyCodeSchool - BST Deletion (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&t=864s)
+  - [BST implementation (code)](Data_Structures_(basic)/binary_search_tree.py)
 - Heap / Priority Queue / Binary Heap
 
 ### Data Structures (advanced)
