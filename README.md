@@ -35,6 +35,7 @@ Before even getting started implementing these algorithms, its important to know
 - Binary Search Tree
   - [GeeksforGeeks - BST Insertion and Search](https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/)
   - [GeeksforGeeks - BST Deletion](https://www.geeksforgeeks.org/binary-search-tree-set-2-delete/) 
+  - [HackerRank - BST Introduction (video)](https://www.youtube.com/watch?v=i_Q0v_Ct5lY&t=48s)
   - [Joe James - BST Insertion, Search and Traversal (video)](https://www.youtube.com/watch?v=YlgPi75hIBc&t=358s)
   - [MyCodeSchool - BST Deletion (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&t=864s)
   - [BST implementation (code)](Data_Structures_(basic)/binary_search_tree.py)
