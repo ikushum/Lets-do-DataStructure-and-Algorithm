@@ -1,3 +1,8 @@
+# Priority Queue and Heaps are pretty similar. The only difference 
+# here in this code is in the delete method. In heap, we pass the 
+# index of element to be deleted instead of just deleting the element 
+# at the base index.
+
 class Heap:
 	def __init__(self, size):
 		self.array = [0] * size
@@ -19,6 +24,8 @@ class Heap:
 		if(self.maxIndex==-1):
 			print('Queue is empty')
 			return False
+		elif(index>self.maxIndex):
+			print('Index out of range')
 		else:
 			print(str(self.array[index]) + ' was deleted')
 			self.array[index] = self.array[self.maxIndex]

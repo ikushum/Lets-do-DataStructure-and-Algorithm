@@ -39,7 +39,12 @@ Before even getting started implementing these algorithms, its important to know
   - [Joe James - BST Insertion, Search and Traversal (video)](https://www.youtube.com/watch?v=YlgPi75hIBc&t=358s)
   - [MyCodeSchool - BST Deletion (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&t=864s)
   - [BST implementation (code)](Data_Structures_(basic)/binary_search_tree.py)
-- Heap / Priority Queue / Binary Heap
+- Heap (Binary Heap) / Priority Queue
+  - [Hacker Earth - Heaps/PriorityQueues](https://www.hackerearth.com/practice/data-structures/trees/heapspriority-queues/tutorial/)
+  - [Cacti Council - Heaps/PriorityQueues Introduction (video)](https://www.youtube.com/watch?v=qXdt1AHMB2o&t=637s)
+  - [HackerRank - Heaps/PriorityQueues Implementation (video)](https://www.youtube.com/watch?v=t0Cq6tVNRBA&t=305s)
+  - [Heap (code)](Data_Structures_(basic)/heap.py)
+  - [Priority Queue (code)](Data_Structures_(basic)/priority_queue.py)
 
 ### Data Structures (advanced)
 

@@ -1,3 +1,8 @@
+# Priority Queue and Heaps are pretty similar. The only difference 
+# here in this code is in the delete method. In heap, we pass the 
+# index of element to be deleted instead of just deleting the element 
+# at the base index.
+
 class MaxPriorityQueue:
 	def __init__(self, size):
 		self.array = [0] * size
