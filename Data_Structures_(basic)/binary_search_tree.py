@@ -4,7 +4,7 @@ class Node:
 		self.left_child=None
 		self.right_child=None
 
-class Tree:
+class BinarySearchTree:
 	def __init__(self, data):
 		self.parent = Node(data)
 
@@ -20,14 +20,14 @@ class Tree:
 				if(self.parent.left_child):
 					return self.parent.left_child.insert(data)
 				else: 
-					self.parent.left_child = Tree(data)
+					self.parent.left_child = BinarySearchTree(data)
 					print(str(data)+' was inserted')
 					return True
 			else:
 				if(self.parent.right_child):
 					return self.parent.right_child.insert(data)
 				else: 
-					self.parent.right_child = Tree(data)
+					self.parent.right_child = BinarySearchTree(data)
 					print(str(data)+' was inserted')
 					return True			
 
@@ -93,7 +93,7 @@ class Tree:
 			min_node = min_node.parent.left_child
 		return min_node		
 
-bst = Tree(None)
+bst = BinarySearchTree(None)
 choice = 0
 while(choice != 5):
 	print("\n1) Press 1 to insert\n2) Press 2 to search\n3) Press 3 to Delete\n4) Press 4 to display inorder\n5) Press 5 to Quit")
