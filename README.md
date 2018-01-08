@@ -48,7 +48,7 @@ Before even getting started implementing these algorithms, its important to know
 
 ### Data Structures (advanced)
 
-- Trie
+- Trie/PrefixTree
 - Segment trees
 - Fenwick tree or Binary indexed tree(BIT)
 - Disjoint data structures
