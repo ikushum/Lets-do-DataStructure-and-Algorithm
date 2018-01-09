@@ -25,3 +25,13 @@ class Trie:
 			print(False)
 			return False
 		self.parent.children[index].search(key[1:])		
+
+	def displayWords(self,word=''):
+		children = self.parent.children
+		for letter in children:	 		
+			if(letter):
+				word+= chr(children.index(letter) + ord('a'))	
+				if(letter.parent.isEndOfWord): print(word) 
+				letter.displayWords(word=word)
+				word=word[:-1]
+		word = ''
