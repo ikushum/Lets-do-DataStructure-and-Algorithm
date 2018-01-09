@@ -49,6 +49,10 @@ Before even getting started implementing these algorithms, its important to know
 ### Data Structures (advanced)
 
 - Trie/PrefixTree
+  - [GeeksForGeeks - Trie (Insert and Search) ](https://www.geeksforgeeks.org/trie-insert-and-search/)
+  - [HackerRank - Trie Introduction (video)](https://www.youtube.com/watch?v=zIjfhVPRZCg&t=162s)
+  - [PersistentProgramming - Trie Implementation (video)](https://www.youtube.com/watch?v=Xt2ouYSxWkw)
+  - [Trie (code)](Data_Structures_(advanced)/trie.py)
 - Segment trees
 - Fenwick tree or Binary indexed tree(BIT)
 - Disjoint data structures
