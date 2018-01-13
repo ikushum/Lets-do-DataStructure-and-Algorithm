@@ -28,10 +28,10 @@ class Trie:
 
 	def displayWords(self,word=''):
 		children = self.parent.children
-		for letter in children:	 		
-			if(letter):
-				word+= chr(children.index(letter) + ord('a'))	
-				if(letter.parent.isEndOfWord): print(word) 
-				letter.displayWords(word=word)
+		for subTree in children:	 		
+			if(subTree):
+				word+= chr(children.index(subTree) + ord('a'))	
+				if(subTree.parent.isEndOfWord): print(word) 
+				subTree.displayWords(word=word)
 				word=word[:-1]
 		word = ''
