@@ -9,7 +9,7 @@ class Tree:
 	def __init__(self,array):
 		self.array = array
 		n=len(array)
-		self.tree = [None] * (2*n)
+		self.tree = [None] * (4*n)
 		self.buildTree(1, 1, n)
 
 	def buildTree(self, node, start, end):
@@ -23,7 +23,7 @@ class Tree:
 			self.buildTree(2*node+1, mid+1, end)
 			low = min(self.tree[2*node].low,self.tree[2*node+1].low)
 			high = max(self.tree[2*node].low,self.tree[2*node+1].low)			
-			self.tree[node] = Node(start,end,high,low)
+			self.tree[node] = Node(start,end,high,low)	
 
 t=Tree([1,3,5,7,9,11])
-print(t.tree[6].low)
+print(t.tree[6].high)
