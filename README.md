@@ -54,6 +54,9 @@ Before even getting started implementing these algorithms, its important to know
   - [PersistentProgramming - Trie Implementation (video)](https://www.youtube.com/watch?v=Xt2ouYSxWkw)
   - [Trie (code)](Data_Structures_(advanced)/trie.py)
 - Segment trees
+  - [HackerEarth - Segment Tree)](https://www.hackerearth.com/practice/notes/segment-tree-and-lazy-propagation/)
+  - [Algorithms Live - Segment Tree](https://www.youtube.com/watch?v=Tr-xEGoByFQ&t=1691s)
+  - [Segment Tree (code)](Data_Structures_(advanced)/segment_tree.py)
 - Fenwick tree or Binary indexed tree(BIT)
 - Disjoint data structures
 
